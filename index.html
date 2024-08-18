@@ -26,32 +26,27 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        'manrope': ['Manrope', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
 
-    <style>
-        .manrope-regular {
-            font-family: "Manrope", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
-
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3844/3844846.png" type="image/x-icon">
 </head>
 
-<body class="manrope-regular">
+<body class="font-manrope">
     <!-- Main content -->
     <main class="max-w-screen-xl mx-auto px-7 py-9 md:px-20 lg:px-16">
 
         <!-- Header Section -->
-        <header class="lg:flex lg:pt-10 mb-14">
+        <header class="lg:flex lg:pt-10 mb-14 lg:mb-20">
             <!-- Header left text content -->
             <div>
-                <h2 class="text-[#1C1C1C] text-3xl md:text-5xl lg:text-7xl md:leading-[55px] font-bold">
+                <h2 class="text-[#1C1C1C] text-5xl md:text-6xl lg:text-7xl md:leading-[70px] font-bold">
                     It's good <br>
                     tea time at The <br>Tea House
                 </h2>
@@ -62,8 +57,8 @@
                 </p>
                 <br>
                 <button class="font-semibold text-white bg-gradient-to-r from-[#FF0000] to-[#FF8938] py-2 px-4
-                    lg:py-3 lg:px-5 lg:text-lg rounded-lg hover:opacity-85 mb-3">
-                    <a href="#">Explore More</a> <i class="fa-solid fa-arrow-right text-base lg:text-lg -rotate-45"></i>
+                    md:px-5 md:py-3 md:text-lg lg:py-3 lg:px-5 lg:text-lg rounded-lg hover:opacity-85 mb-3">
+                    <a href="#">Explore More</a> <i class="fa-solid fa-arrow-right text-base md:text-lg lg:text-lg -rotate-45"></i>
                 </button>
             </div>
 
@@ -76,15 +71,15 @@
 
                 <!-- card -->
                 <div
-                    class="flex items-center px-4 py-1 md:px-9 md:py-2 lg:px-10 lg:py-3 bg-white shadow-xl rounded-lg absolute top-52 md:top-80 md:left-20">
+                    class="flex items-center bg-white shadow-xl rounded-lg absolute px-4 py-2 md:px-11 md:py-3 lg:px-10 lg:py-3 top-52 md:top-80 md:left-20">
                     <!-- icon -->
                     <div>
-                        <i class="fa-solid fa-star text-amber-400 lg:text-xl mr-2"></i>
+                        <i class="fa-solid fa-star text-amber-400 md:text-xl lg:text-xl mr-2"></i>
                     </div>
 
                     <!-- card text -->
                     <div class="">
-                        <h2 class="text-[#1C1C1C] text-xl lg:text-2xl lg:font-extrabold font-bold">5.00</h2>
+                        <h2 class="text-[#1C1C1C] text-xl font-bold md:text-3xl md:font-extrabold lg:text-2xl lg:font-extrabold">5.00</h2>
                         <p class="text-[#777777] font-semibold">Trust Pilot Ratings</p>
                     </div>
                 </div>
@@ -92,22 +87,22 @@
         </header>
 
         <!-- Our Featured Products -->
-        <section>
+        <section class="lg:mb-20">
             <!-- text content -->
-            <h4 class="font-extrabold text-[#1C1C1C] text-2xl text-center pb-1">
+            <h4 class="font-extrabold text-[#1C1C1C] text-3xl w-3/4 text-start pb-3 lg:text-center lg:mx-auto">
                 Our Featured Products
             </h4>
-            <p class="text-center text-[#777777] font-medium mb-8">
+            <p class="text-[#777777] text-start text-sm font-medium mb-8 lg:w-3/4 lg:text-center lg:mx-auto">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour, or randomised words which don't look even slightly
                 believable.
             </p>
 
             <!-- tea card -->
-            <div class="">
+            <div class="md:grid md:grid-cols-2 md:gap-x-8 lg:grid lg:grid-cols-4">
 
                 <!-- card 1 -->
-                <div class="w-3/4 bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -115,18 +110,18 @@
                     </div>
 
                     <!-- text -->
-                    <div>
-                        <h4 class="text-center font-extrabold text-xl text-[#1C1C1C]">
-                            Black Tea
+                    <div class="">
+                        <h4 class="text-center font-extrabold text-2xl text-[#1C1C1C]">
+                            Milk Tea
                         </h4>
-                        <p class="text-center text-[#777777] font-semibold pb-4">
+                        <p class="w-3/4 mx-auto text-center text-[#777777] font-semibold pb-4">
                             Creamer could be replaced by fresh milk
                         </p>
                     </div>
                 </div>
 
                 <!-- card 2 -->
-                <div class="w-3/4 bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9 
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -134,18 +129,18 @@
                     </div>
 
                     <!-- text -->
-                    <div>
-                        <h4 class="text-center font-extrabold text-xl text-[#1C1C1C]">
-                            Milk Tea
+                    <div class="">
+                        <h4 class="text-center font-extrabold text-2xl text-[#1C1C1C]">
+                            Black Tea
                         </h4>
-                        <p class="text-center text-[#777777] font-semibold  pb-4">
+                        <p class="w-3/4 mx-auto text-center text-[#777777] font-semibold pb-4">
                             Creamer could be replaced by fresh milk
                         </p>
                     </div>
                 </div>
 
                 <!-- card 3 -->
-                <div class="w-3/4 bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9 
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -153,30 +148,30 @@
                     </div>
 
                     <!-- text -->
-                    <div>
-                        <h4 class="text-center font-extrabold text-xl text-[#1C1C1C]">
+                    <div class="">
+                        <h4 class="text-center font-extrabold text-2xl text-[#1C1C1C]">
                             Lemon Tea
                         </h4>
-                        <p class="text-center text-[#777777] font-semibold pb-4">
+                        <p class="w-3/4 mx-auto text-center text-[#777777] font-semibold pb-4">
                             Creamer could be replaced by fresh milk
                         </p>
                     </div>
                 </div>
 
                 <!-- card 4 -->
-                <div class="w-3/4 bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9 
-                 rounded-lg">
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
+                 mb-7 rounded-lg">
                     <!-- img -->
                     <div>
                         <img class="mx-auto border border-dashed border-gray-400 mb-6" src="./assets/tea-4.png" alt="">
                     </div>
 
                     <!-- text -->
-                    <div>
-                        <h4 class="text-center font-extrabold text-xl text-[#1C1C1C]">
+                    <div class="">
+                        <h4 class="text-center font-extrabold text-2xl text-[#1C1C1C]">
                             Green Tea
                         </h4>
-                        <p class="text-center text-[#777777] font-semibold pb-4">
+                        <p class="w-3/4 mx-auto text-center text-[#777777] font-semibold pb-4">
                             Creamer could be replaced by fresh milk
                         </p>
                     </div>
