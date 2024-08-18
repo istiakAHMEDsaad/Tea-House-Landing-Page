@@ -26,6 +26,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        darkOne: '#1C1C1C',
+                        darkTwo: '#777777',
                     },
                     fontFamily: {
                         'manrope': ['Manrope', 'sans-serif'],
@@ -43,9 +45,9 @@
     <main class="max-w-screen-xl mx-auto px-7 py-9 md:px-20 lg:px-16">
 
         <!-- Header Section -->
-        <header class="lg:flex lg:pt-10 mb-14 lg:mb-20">
+        <header class="mb-20 lg:flex lg:pt-10 lg:mb-20">
             <!-- Header left text content -->
-            <div>
+            <div class="mb-5">
                 <h2 class="text-[#1C1C1C] text-5xl md:text-6xl lg:text-7xl md:leading-[70px] font-bold">
                     It's good <br>
                     tea time at The <br>Tea House
@@ -58,7 +60,8 @@
                 <br>
                 <button class="font-semibold text-white bg-gradient-to-r from-[#FF0000] to-[#FF8938] py-2 px-4
                     md:px-5 md:py-3 md:text-lg lg:py-3 lg:px-5 lg:text-lg rounded-lg hover:opacity-85 mb-3">
-                    <a href="#">Explore More</a> <i class="fa-solid fa-arrow-right text-base md:text-lg lg:text-lg -rotate-45"></i>
+                    <a href="#">Explore More</a> <i
+                        class="fa-solid fa-arrow-right text-base md:text-lg lg:text-lg -rotate-45"></i>
                 </button>
             </div>
 
@@ -79,7 +82,9 @@
 
                     <!-- card text -->
                     <div class="">
-                        <h2 class="text-[#1C1C1C] text-xl font-bold md:text-3xl md:font-extrabold lg:text-2xl lg:font-extrabold">5.00</h2>
+                        <h2
+                            class="text-[#1C1C1C] text-xl font-bold md:text-3xl md:font-extrabold lg:text-2xl lg:font-extrabold">
+                            5.00</h2>
                         <p class="text-[#777777] font-semibold">Trust Pilot Ratings</p>
                     </div>
                 </div>
@@ -87,7 +92,7 @@
         </header>
 
         <!-- Our Featured Products -->
-        <section class="lg:mb-20">
+        <section class="mb-12 lg:mb-20">
             <!-- text content -->
             <h4 class="font-extrabold text-[#1C1C1C] text-3xl w-3/4 text-start pb-3 lg:text-center lg:mx-auto">
                 Our Featured Products
@@ -102,7 +107,7 @@
             <div class="md:grid md:grid-cols-2 md:gap-x-8 lg:grid lg:grid-cols-4">
 
                 <!-- card 1 -->
-                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
+                <div class="bg-gradient-to-b shadow-md from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -121,7 +126,7 @@
                 </div>
 
                 <!-- card 2 -->
-                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
+                <div class="bg-gradient-to-b shadow-md from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -140,7 +145,7 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
+                <div class="bg-gradient-to-b shadow-md from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -159,7 +164,7 @@
                 </div>
 
                 <!-- card 4 -->
-                <div class="bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
+                <div class="bg-gradient-to-b shadow-md from-[#F4F4F4] to-[#F4F4F4] mx-auto pt-9
                  mb-7 rounded-lg">
                     <!-- img -->
                     <div>
@@ -179,6 +184,60 @@
 
             </div>
         </section>
+
+        <!-- Great Tea, Freshly Presented -->
+        <section class="mt-16">
+            <!-- container -->
+            <div class="grid grid-cols-1">
+
+                <!-- image -->
+                <div class="grid grid-cols-2 grid-rows-3 gap-3">
+
+                    <div class="h-auto rounded-lg bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-[10%] row-span-1">
+                    </div>
+
+                    <div class="rounded-lg row-span-2 flex items-center" style="background-color: rgba(230, 166, 35, 0.1);">
+                        <img class="mx-auto py-3" src="./assets/fresh-1.png" alt="fresh coffee pic 1">
+                    </div>
+
+                    <div class="rounded-lg row-span-2 flex items-center" style="background-color: rgba(230, 166, 35, 0.1);">
+                        <img class="mx-auto w-[75%]" src="./assets/fresh-2.png" alt="fresh coffee pic 1">
+                    </div>
+
+                    <div class="h-auto rounded-lg bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-[10%] row-span-1">
+                    </div>
+
+                </div>
+
+                <!-- text- -->
+                <div>
+                    <h2 class="font-extrabold text-3xl text-darkOne text-left">
+                        Great Tea, Freshly Presented
+                    </h2><br>
+                    <p class="font-medium text-base text-left leading-6 text-darkTwo">
+                        The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions .
+                        It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
+                        deeply appreciated by its custoers because of good words of mouth and unique customized service
+                        orginated from Taiwan.
+                    </p><br>
+
+                    <h4 class="text-darkOne font-extrabold text-xl text-left">
+                        Unique Taste
+                    </h4><br>
+                    <p class="font-medium text-base text-left leading-6 text-darkTwo">
+                        A Unique and different style from other teapots gives a luxurious and minimalist impression
+                    </p><br>
+
+                    <h4 class="text-darkOne font-extrabold text-xl text-left">
+                        Premium Quality
+                    </h4><br>
+                    <p class="font-medium text-base text-left leading-6 text-darkTwo">
+                        Premium Quality that makes tea more elegant and more durable when you use it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
 
