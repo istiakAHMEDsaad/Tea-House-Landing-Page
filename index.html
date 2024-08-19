@@ -350,7 +350,7 @@
         </section>
 
         <!-- News & Events -->
-        <section>
+        <section class="mb-24">
             <!-- news heading section -->
             <div class="mb-6 lg:mb-12">
                 <h2 class="
@@ -486,52 +486,130 @@
                 <div class="
                 flex flex-col lg:items-center
                 border border-[#D2D2D2] rounded-lg
-                md:hidden lg:block
-                py-5 px-5
+                md:hidden lg:inline-block
+                shadow-md
+                py-5 px-5 lg:mb-5
                 ">
-                   <!-- img -->
-                   <div class="
+                    <!-- img -->
+                    <div class="
                    mb-5
                    ">
-                       <img src="./assets/news-3.png" alt="">
-                   </div>
+                        <img src="./assets/news-3.png" alt="">
+                    </div>
 
-                   <!-- text -->
-                   <div>
-                       <p class="
+                    <!-- text -->
+                    <div>
+                        <p class="
                        font-medium
                        text-left text-[#777]
                        mb-3
                        ">
-                           Feb 05, 2027
-                       </p>
-                       <h4 class="
+                            Feb 05, 2027
+                        </p>
+                        <h4 class="
                        text-lg text-[#1C1C1C]
                        font-extrabold
                        mb-3
                        ">
-                           Collecting 8 points for discount
-                       </h4>
-                       <p class="
+                            Collecting 8 points for discount
+                        </h4>
+                        <p class="
                        text-[#777]
                        font-medium
                        leading-6
                        w-full
                        mb-3
                        ">
-                           There are many variations of passages of Lorem Ipsum available.
-                       </p>
-                       <h4 class="
+                            There are many variations of passages of Lorem Ipsum available.
+                        </p>
+                        <h4 class="
                        text-[#1C1C1C]
                        font-bold
                        ">
-                           Learn More
-                       </h4>
-                   </div>
-               </div>
+                            Learn More
+                        </h4>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- footer -->
+    <footer class="px-8 py-16 md:px-28 lg:px-36 bg-gradient-to-l from-red-100 to-orange-100"">
+        <!-- header -->
+        <div class=" flex justify-between items-center mb-8">
+        <div>
+            <img class="w-10" src="./assets/cup.png" alt="">
+        </div>
+        <div class="">
+            <p class="text-[#494949] text-lg font-medium pb-2">
+                Ready to get strated?
+            </p>
+            <div class="flex justify-center">
+                <button
+                    class="text-white text-lg font-bold bg-gradient-to-r from-[#FF0000] to-[#FF8938] py-2 px-4 rounded-lg">
+                    Get Started
+                </button>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- Quick link -->
+        <div class="grid grid-cols-2 grid-rows-2 gap-5 lg:grid-cols-4 mb-16 lg:mb-0">
+            <!-- link1 -->
+            <div>
+                <h4 class="font-semibold text-xl text-[#1C1C1C] mb-2">
+                    Quick Links
+                </h4>
+                <p class="text-[#494949] mb-1">Home</p>
+                <p class="text-[#494949] mb-1">About Us</p>
+                <p class="text-[#494949] mb-1">Insurance</p>
+                <p class="text-[#494949]">Privacy Policy</p>
+            </div>
+            <!-- link2 -->
+            <div>
+                <h4 class="font-semibold text-xl text-[#1C1C1C] mb-2">
+                    Our Service
+                </h4>
+                <p class="text-[#494949] mb-1">Life Insurance</p>
+                <p class="text-[#494949] mb-1">Car Insurance</p>
+                <p class="text-[#494949] mb-1">Health Insurance</p>
+                <p class="text-[#494949]">House Insurance</p>
+            </div>
+            <!-- link3 -->
+            <div>
+                <h4 class="font-semibold text-xl text-[#1C1C1C] mb-2">
+                    Help
+                </h4>
+                <p class="text-[#494949] mb-1">FAQs</p>
+                <p class="text-[#494949]">Contact Us</p>
+            </div>
+            <!-- link4 -->
+            <div>
+                <h4 class="text-xl font-semibold text-[#1C1C1C] mb-5">
+                    Subscribe to our newsletter
+                </h4>
+                <p class="text-sm text-[#494949] mb-5">
+                    Email address <i class="fa-solid fa-greater-than bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-1 rounded-full text-white ml-5 md:ml-32"></i>
+                </p>
+                <hr class="border-b-1 border-[#494949] opacity-50 mb-3">
+                <div class="w-1/2 md:w-2/6 flex justify-between">
+                    <i class="text-[#494949] fa-brands fa-facebook-f"></i>
+                    <i class="text-[#494949] fa-brands fa-twitter"></i>
+                    <i class="text-[#494949] fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div>
+            <p class="text-center">
+                &#169; 2024 Istiak Ahmed Saad - All rights reserved.
+            </p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
